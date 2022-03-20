@@ -1,0 +1,191 @@
+nohup: ignoring input
+[I 16:41:56.737 NotebookApp] Serving notebooks from local directory: /home/tongjiayan/DepthEstimate/DenseDepth
+[I 16:41:56.737 NotebookApp] Jupyter Notebook 6.4.0 is running at:
+[I 16:41:56.737 NotebookApp] http://100.64.165.235:3000/
+[I 16:41:56.737 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 16:42:09.789 NotebookApp] 302 GET / (100.68.228.174) 1.000000ms
+[I 16:42:16.745 NotebookApp] Writing notebook-signing key to /home/tongjiayan/.local/share/jupyter/notebook_secret
+[W 16:42:16.750 NotebookApp] Notebook DenseDepth.ipynb is not trusted
+[I 16:42:17.108 NotebookApp] Kernel started: 58d5e1f5-1162-4737-a87c-3459c8c07557, name: python3
+[I 16:44:17.320 NotebookApp] Saving file at /DenseDepth.ipynb
+[W 16:44:17.320 NotebookApp] Notebook DenseDepth.ipynb is not trusted
+[W 16:50:17.568 NotebookApp] WebSocket ping timeout after 119995 ms.
+[I 16:50:22.573 NotebookApp] Starting buffering for 58d5e1f5-1162-4737-a87c-3459c8c07557:f729b2e0415f468c9eaf22a46915c666
+[I 16:57:30.436 NotebookApp] Creating new notebook in 
+[I 16:57:31.745 NotebookApp] Kernel started: 028e4d8d-c3dc-48a7-ba93-336467a3f3d8, name: python3
+[I 16:59:31.881 NotebookApp] Saving file at /Untitled.ipynb
+[W 17:23:02.503 NotebookApp] WebSocket ping timeout after 119901 ms.
+[I 17:23:07.508 NotebookApp] Starting buffering for 028e4d8d-c3dc-48a7-ba93-336467a3f3d8:fa1f8263dfe14a17a4ce45776442656c
+[W 19:26:55.372 NotebookApp] Notebook Untitled.ipynb is not trusted
+[I 19:26:58.262 NotebookApp] Starting buffering for 028e4d8d-c3dc-48a7-ba93-336467a3f3d8:2b1640c7381140ee8b842f381d2ed9fc
+[I 19:27:14.338 NotebookApp] Creating new directory in /examples
+[I 19:30:22.929 NotebookApp] Creating new notebook in /examples/examples
+[I 19:30:24.019 NotebookApp] Kernel started: a3c467b5-626f-44f6-ace9-2331deb7501b, name: python3
+[I 19:31:50.647 NotebookApp] Saving file at /examples/examples/Untitled.ipynb
+[I 19:32:14.850 NotebookApp] Saving file at /examples/examples/Untitled.ipynb
+[I 19:32:28.704 NotebookApp] Saving file at /examples/examples/Untitled.ipynb
+[I 19:34:24.027 NotebookApp] Saving file at /examples/examples/Untitled.ipynb
+[I 19:35:42.899 NotebookApp] Saving file at /examples/examples/Untitled.ipynb
+[I 19:37:51.430 NotebookApp] Starting buffering for a3c467b5-626f-44f6-ace9-2331deb7501b:8fbb00783518476380b3efb7eda80fa2
+[W 19:37:51.765 NotebookApp] Notebook examples/examples/Untitled.ipynb is not trusted
+[I 19:37:55.027 NotebookApp] Starting buffering for a3c467b5-626f-44f6-ace9-2331deb7501b:2164fb82b967480488aa7e9692e2b63b
+[I 19:37:55.036 NotebookApp] Kernel shutdown: a3c467b5-626f-44f6-ace9-2331deb7501b
+[I 19:37:55.362 NotebookApp] Kernel started: f821d6f8-da2c-4ff4-afa7-189874c372af, name: densedepth
+[I 19:39:51.909 NotebookApp] Saving file at /examples/examples/Untitled.ipynb
+[I 19:41:33.321 NotebookApp] Saving file at /examples/examples/Untitled.ipynb
+[I 19:41:51.891 NotebookApp] Saving file at /examples/examples/Untitled.ipynb
+[I 19:42:02.216 NotebookApp] Saving file at /examples/examples/Untitled.ipynb
+[I 19:43:52.615 NotebookApp] Saving file at /examples/examples/Untitled.ipynb
+[E 19:45:37.111 NotebookApp] Uncaught exception GET /files/examples/examples/LFT_3374.png (100.68.228.174)
+    HTTPServerRequest(protocol='http', host='100.64.165.235:3000', method='GET', uri='/files/examples/examples/LFT_3374.png', version='HTTP/1.1', remote_ip='100.68.228.174')
+    Traceback (most recent call last):
+      File "/home/tongjiayan/.conda/envs/denseDepth/lib/python3.6/site-packages/tornado/web.py", line 1704, in _execute
+        result = await result
+      File "/home/tongjiayan/.conda/envs/denseDepth/lib/python3.6/site-packages/tornado/web.py", line 2648, in get
+        await self.flush()
+      File "/home/tongjiayan/.conda/envs/denseDepth/lib/python3.6/site-packages/tornado/web.py", line 1102, in flush
+        return self.request.connection.write(chunk)
+      File "/home/tongjiayan/.conda/envs/denseDepth/lib/python3.6/site-packages/tornado/http1connection.py", line 499, in write
+        self._pending_write = self.stream.write(self._format_chunk(chunk))
+      File "/home/tongjiayan/.conda/envs/denseDepth/lib/python3.6/site-packages/tornado/http1connection.py", line 476, in _format_chunk
+        "Tried to write more data than Content-Length"
+    tornado.httputil.HTTPOutputError: Tried to write more data than Content-Length
+[E 19:45:37.113 NotebookApp] Cannot send error response after headers written
+[I 19:45:52.597 NotebookApp] Saving file at /examples/examples/Untitled.ipynb
+[I 19:47:52.594 NotebookApp] Saving file at /examples/examples/Untitled.ipynb
+[I 19:48:26.520 NotebookApp] Saving file at /examples/examples/Untitled.ipynb
+[W 19:49:05.636 NotebookApp] delete /examples/examples/LFT_3374.NEF
+[W 19:49:05.640 NotebookApp] delete /examples/examples/LFT_3375.NEF
+[W 19:49:05.662 NotebookApp] delete /examples/examples/LFT_3376.NEF
+[W 19:49:05.668 NotebookApp] delete /examples/examples/LFT_3377.NEF
+[W 19:49:05.670 NotebookApp] delete /examples/examples/LFT_3379.NEF
+[W 19:49:05.671 NotebookApp] delete /examples/examples/LFT_3378.NEF
+[I 19:49:52.592 NotebookApp] Saving file at /examples/examples/convert_and_resize.ipynb
+[W 19:50:41.287 NotebookApp] Notebook examples/examples/convert_and_resize.ipynb is not trusted
+[W 19:52:37.965 NotebookApp] Notebook examples/examples/convert_and_resize.ipynb is not trusted
+[W 19:54:17.273 NotebookApp] Notebook Untitled.ipynb is not trusted
+[I 19:54:38.136 NotebookApp] Saving file at /examples/examples/convert_and_resize.ipynb
+[I 19:58:02.532 NotebookApp] Starting buffering for 028e4d8d-c3dc-48a7-ba93-336467a3f3d8:9fa3782b2972406e84d269937850e21c
+[W 20:18:25.953 NotebookApp] WebSocket ping timeout after 119924 ms.
+[I 20:18:30.956 NotebookApp] Starting buffering for f821d6f8-da2c-4ff4-afa7-189874c372af:2164fb82b967480488aa7e9692e2b63b
+[I 20:28:52.110 NotebookApp] Restoring connection for f821d6f8-da2c-4ff4-afa7-189874c372af:2164fb82b967480488aa7e9692e2b63b
+[I 20:33:00.300 NotebookApp] Saving file at /examples/examples/convert_and_resize.ipynb
+[I 20:33:00.323 NotebookApp] Saving file at /examples/examples/convert_and_resize.ipynb
+[I 20:33:00.348 NotebookApp] Saving file at /examples/examples/convert_and_resize.ipynb
+[I 20:42:24.775 NotebookApp] Saving file at /examples/examples/convert_and_resize.ipynb
+[I 20:43:58.134 NotebookApp] Saving file at /examples/examples/convert_and_resize.ipynb
+[W 20:44:15.688 NotebookApp] Notebook Untitled.ipynb is not trusted
+[I 20:46:15.979 NotebookApp] Saving file at /Untitled.ipynb
+[I 20:47:17.323 NotebookApp] Saving file at /Untitled.ipynb
+[I 20:47:19.308 NotebookApp] Starting buffering for 028e4d8d-c3dc-48a7-ba93-336467a3f3d8:b2221722167740988daf8c4fefb39c50
+[I 20:47:48.040 NotebookApp] Starting buffering for f821d6f8-da2c-4ff4-afa7-189874c372af:2164fb82b967480488aa7e9692e2b63b
+[I 10:47:04.560 NotebookApp] Saving file at /Untitled.ipynb
+[I 10:48:39.676 NotebookApp] Saving file at /test.py
+[I 10:50:18.687 NotebookApp] Saving file at /test.py
+[I 10:50:32.028 NotebookApp] Saving file at /utils.py
+[I 10:52:01.718 NotebookApp] 302 GET / (100.68.228.174) 0.800000ms
+[I 10:53:04.522 NotebookApp] Saving file at /Untitled.ipynb
+[I 10:55:04.524 NotebookApp] Saving file at /Untitled.ipynb
+[I 10:57:47.109 NotebookApp] Saving file at /test.py
+[I 10:57:50.185 NotebookApp] Saving file at /utils.py
+[W 11:17:03.865 NotebookApp] Notebook examples/examples/convert_and_resize.ipynb is not trusted
+[I 11:19:04.172 NotebookApp] Saving file at /examples/examples/convert_and_resize.ipynb
+[W 11:19:31.569 NotebookApp] 400 GET /api/contents/examples/examples/depthLFT_3379.tif?type=file&format=text&_=1621912770547 (100.68.228.174): /home/tongjiayan/DepthEstimate/DenseDepth/examples/examples/depthLFT_3379.tif is not UTF-8 encoded
+[W 11:19:31.569 NotebookApp] /home/tongjiayan/DepthEstimate/DenseDepth/examples/examples/depthLFT_3379.tif is not UTF-8 encoded
+[W 11:19:31.570 NotebookApp] 400 GET /api/contents/examples/examples/depthLFT_3379.tif?type=file&format=text&_=1621912770547 (100.68.228.174) 16.130000ms referer=http://100.64.165.235:3000/edit/examples/examples/depthLFT_3379.tif
+[W 11:19:33.524 NotebookApp] 400 GET /api/contents/examples/examples/depthLFT_3379.tif?type=file&format=text&_=1621912772623 (100.68.228.174): /home/tongjiayan/DepthEstimate/DenseDepth/examples/examples/depthLFT_3379.tif is not UTF-8 encoded
+[W 11:19:33.525 NotebookApp] /home/tongjiayan/DepthEstimate/DenseDepth/examples/examples/depthLFT_3379.tif is not UTF-8 encoded
+[W 11:19:33.525 NotebookApp] 400 GET /api/contents/examples/examples/depthLFT_3379.tif?type=file&format=text&_=1621912772623 (100.68.228.174) 16.150000ms referer=http://100.64.165.235:3000/edit/examples/examples/depthLFT_3379.tif
+[W 11:19:50.479 NotebookApp] 400 GET /api/contents/examples/examples/depthLFT_3379.tif?type=file&format=text&_=1621912789595 (100.68.228.174): /home/tongjiayan/DepthEstimate/DenseDepth/examples/examples/depthLFT_3379.tif is not UTF-8 encoded
+[W 11:19:50.479 NotebookApp] /home/tongjiayan/DepthEstimate/DenseDepth/examples/examples/depthLFT_3379.tif is not UTF-8 encoded
+[W 11:19:50.480 NotebookApp] 400 GET /api/contents/examples/examples/depthLFT_3379.tif?type=file&format=text&_=1621912789595 (100.68.228.174) 12.920000ms referer=http://100.64.165.235:3000/edit/examples/examples/depthLFT_3379.tif
+[I 11:20:27.135 NotebookApp] Saving file at /examples/examples/convert_and_resize.ipynb
+[I 11:21:04.168 NotebookApp] Saving file at /examples/examples/convert_and_resize.ipynb
+[I 11:23:04.184 NotebookApp] Saving file at /examples/examples/convert_and_resize.ipynb
+[W 11:25:34.373 NotebookApp] WebSocket ping timeout after 119988 ms.
+[W 11:25:34.430 NotebookApp] WebSocket ping timeout after 119994 ms.
+[I 11:25:39.377 NotebookApp] Starting buffering for f821d6f8-da2c-4ff4-afa7-189874c372af:6d1faf46cecf45cc89426389f09b7949
+[I 11:25:39.431 NotebookApp] Starting buffering for 028e4d8d-c3dc-48a7-ba93-336467a3f3d8:f1b8ba5cfffd4a8e8ca64f7d75d6afcd
+[I 11:28:13.610 NotebookApp] Restoring connection for f821d6f8-da2c-4ff4-afa7-189874c372af:6d1faf46cecf45cc89426389f09b7949
+[I 11:28:19.456 NotebookApp] Saving file at /examples/examples/convert_and_resize.ipynb
+[I 11:28:25.993 NotebookApp] Saving file at /examples/examples/convert_and_resize.ipynb
+[I 11:37:32.295 NotebookApp] Saving file at /examples/examples/convert_and_resize.ipynb
+[I 11:37:53.649 NotebookApp] Saving file at /examples/examples/convert_and_resize.ipynb
+[W 11:51:13.611 NotebookApp] WebSocket ping timeout after 119969 ms.
+[I 11:51:18.614 NotebookApp] Starting buffering for f821d6f8-da2c-4ff4-afa7-189874c372af:6d1faf46cecf45cc89426389f09b7949
+[I 12:22:08.565 NotebookApp] Saving file at /examples/examples/convert_and_resize.ipynb
+[I 21:35:32.606 NotebookApp] Saving file at /test.py
+[I 21:35:42.624 NotebookApp] New terminal with automatic name: 1
+[I 21:37:47.855 NotebookApp] Saving file at /test.py
+[I 21:39:28.077 NotebookApp] Saving file at /test.py
+[I 21:43:52.025 NotebookApp] Saving file at /utils.py
+[I 21:44:13.023 NotebookApp] Saving file at /utils.py
+[I 21:45:23.499 NotebookApp] Saving file at /test.py
+[I 21:49:14.436 NotebookApp] Saving file at /test.py
+[I 21:50:50.400 NotebookApp] Saving file at /utils.py
+[I 21:53:03.020 NotebookApp] Saving file at /utils.py
+[I 21:53:15.386 NotebookApp] Saving file at /utils.py
+[I 21:53:29.498 NotebookApp] Saving file at /utils.py
+[I 21:54:49.550 NotebookApp] Saving file at /utils.py
+[I 21:55:04.367 NotebookApp] Saving file at /test.py
+[I 21:55:06.711 NotebookApp] Saving file at /test.py
+[I 21:59:51.944 NotebookApp] Saving file at /utils.py
+[I 22:04:24.800 NotebookApp] Saving file at /utils.py
+[I 22:30:35.943 NotebookApp] Saving file at /utils.py
+[I 07:30:19.469 NotebookApp] Restoring connection for 028e4d8d-c3dc-48a7-ba93-336467a3f3d8:f1b8ba5cfffd4a8e8ca64f7d75d6afcd
+[I 07:30:19.473 NotebookApp] Restoring connection for f821d6f8-da2c-4ff4-afa7-189874c372af:6d1faf46cecf45cc89426389f09b7949
+[W 07:31:49.470 NotebookApp] WebSocket ping timeout after 90000 ms.
+[W 07:31:49.474 NotebookApp] WebSocket ping timeout after 90001 ms.
+[I 07:31:54.472 NotebookApp] Starting buffering for 028e4d8d-c3dc-48a7-ba93-336467a3f3d8:f1b8ba5cfffd4a8e8ca64f7d75d6afcd
+[I 07:31:54.475 NotebookApp] Starting buffering for f821d6f8-da2c-4ff4-afa7-189874c372af:6d1faf46cecf45cc89426389f09b7949
+[I 15:52:44.772 NotebookApp] Restoring connection for 028e4d8d-c3dc-48a7-ba93-336467a3f3d8:f1b8ba5cfffd4a8e8ca64f7d75d6afcd
+[I 15:52:44.788 NotebookApp] Restoring connection for f821d6f8-da2c-4ff4-afa7-189874c372af:6d1faf46cecf45cc89426389f09b7949
+[W 17:07:44.773 NotebookApp] WebSocket ping timeout after 119953 ms.
+[W 17:07:44.789 NotebookApp] WebSocket ping timeout after 119959 ms.
+[I 17:07:49.774 NotebookApp] Starting buffering for 028e4d8d-c3dc-48a7-ba93-336467a3f3d8:f1b8ba5cfffd4a8e8ca64f7d75d6afcd
+[I 17:07:49.791 NotebookApp] Starting buffering for f821d6f8-da2c-4ff4-afa7-189874c372af:6d1faf46cecf45cc89426389f09b7949
+[I 17:27:33.449 NotebookApp] Restoring connection for 028e4d8d-c3dc-48a7-ba93-336467a3f3d8:f1b8ba5cfffd4a8e8ca64f7d75d6afcd
+[I 17:27:33.459 NotebookApp] Restoring connection for f821d6f8-da2c-4ff4-afa7-189874c372af:6d1faf46cecf45cc89426389f09b7949
+[W 17:30:33.451 NotebookApp] WebSocket ping timeout after 119981 ms.
+[W 17:30:33.459 NotebookApp] WebSocket ping timeout after 119989 ms.
+[I 17:30:38.453 NotebookApp] Starting buffering for 028e4d8d-c3dc-48a7-ba93-336467a3f3d8:f1b8ba5cfffd4a8e8ca64f7d75d6afcd
+[I 17:30:38.460 NotebookApp] Starting buffering for f821d6f8-da2c-4ff4-afa7-189874c372af:6d1faf46cecf45cc89426389f09b7949
+[I 10:04:08.044 NotebookApp] Saving file at /examples/examples/convert_and_resize.ipynb
+[I 10:18:13.066 NotebookApp] Saving file at /utils.py
+[I 10:18:24.847 NotebookApp] Saving file at /utils.py
+[I 10:21:14.176 NotebookApp] Saving file at /utils.py
+[W 10:32:40.545 NotebookApp] delete /examples/examples/312_image.png
+[I 10:34:55.571 NotebookApp] Saving file at /utils.py
+[I 14:58:09.470 NotebookApp] Saving file at /utils.py
+[I 20:18:21.369 NotebookApp] Saving file at /utils.py
+[I 20:19:27.557 NotebookApp] Saving file at /examples/examples/convert_and_resize.ipynb
+[I 20:21:06.418 NotebookApp] Saving file at /examples/examples/convert_and_resize.ipynb
+[I 20:29:06.323 NotebookApp] Saving file at /examples/examples/convert_and_resize.ipynb
+[I 20:30:44.945 NotebookApp] Saving file at /utils.py
+[I 20:30:53.472 NotebookApp] Saving file at /utils.py
+[I 20:31:06.316 NotebookApp] Saving file at /examples/examples/convert_and_resize.ipynb
+[I 20:41:39.132 NotebookApp] Saving file at /utils.py
+[I 20:41:54.423 NotebookApp] Saving file at /examples/examples/convert_and_resize.ipynb
+[I 20:55:21.145 NotebookApp] Saving file at /utils.py
+[I 20:55:23.459 NotebookApp] Saving file at /utils.py
+[I 20:56:19.834 NotebookApp] Saving file at /examples/examples/convert_and_resize.ipynb
+[I 21:04:22.947 NotebookApp] Saving file at /utils.py
+[I 21:05:03.621 NotebookApp] Saving file at /utils.py
+[I 21:06:05.892 NotebookApp] Saving file at /examples/examples/convert_and_resize.ipynb
+[I 21:19:39.885 NotebookApp] Saving file at /examples/examples/convert_and_resize.ipynb
+[I 21:19:42.775 NotebookApp] Saving file at /utils.py
+[W 21:34:06.177 NotebookApp] WebSocket ping timeout after 119958 ms.
+[I 21:34:11.180 NotebookApp] Starting buffering for f821d6f8-da2c-4ff4-afa7-189874c372af:afea1b88d2e84c268144978d1c44632a
+[I 10:06:10.073 NotebookApp] Restoring connection for f821d6f8-da2c-4ff4-afa7-189874c372af:afea1b88d2e84c268144978d1c44632a
+[W 10:47:40.075 NotebookApp] WebSocket ping timeout after 119977 ms.
+[I 10:47:45.077 NotebookApp] Starting buffering for f821d6f8-da2c-4ff4-afa7-189874c372af:afea1b88d2e84c268144978d1c44632a
+[I 10:48:56.610 NotebookApp] Restoring connection for f821d6f8-da2c-4ff4-afa7-189874c372af:afea1b88d2e84c268144978d1c44632a
+[I 10:56:12.572 NotebookApp] Starting buffering for f821d6f8-da2c-4ff4-afa7-189874c372af:afea1b88d2e84c268144978d1c44632a
+[I 10:56:13.724 NotebookApp] Restoring connection for f821d6f8-da2c-4ff4-afa7-189874c372af:afea1b88d2e84c268144978d1c44632a
+[W 11:03:43.726 NotebookApp] WebSocket ping timeout after 119995 ms.
+[I 11:03:48.729 NotebookApp] Starting buffering for f821d6f8-da2c-4ff4-afa7-189874c372af:afea1b88d2e84c268144978d1c44632a
+[I 11:08:28.201 NotebookApp] Restoring connection for f821d6f8-da2c-4ff4-afa7-189874c372af:afea1b88d2e84c268144978d1c44632a
+[W 11:12:28.205 NotebookApp] WebSocket ping timeout after 119909 ms.
+[I 11:12:33.207 NotebookApp] Starting buffering for f821d6f8-da2c-4ff4-afa7-189874c372af:afea1b88d2e84c268144978d1c44632a
+[I 11:16:42.504 NotebookApp] Restoring connection for f821d6f8-da2c-4ff4-afa7-189874c372af:afea1b88d2e84c268144978d1c44632a
+[I 11:23:47.545 NotebookApp] Starting buffering for f821d6f8-da2c-4ff4-afa7-189874c372af:afea1b88d2e84c268144978d1c44632a
