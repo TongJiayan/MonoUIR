@@ -23,10 +23,7 @@ and you will get result images in `Output` folder.
 
 You can change the configurations of the pipeline in `MonoUIR.py`
 
-### 3. RUCB dataset
-链接: https://pan.baidu.com/s/1tkZi7ebdutRqqE_ObtiYxQ 提取码: n3lb
-
-### 4. Demo
+### 3. Demo
 
 ![demo](Demo/Demo.png)
 Video demo can be obtained in `Demo` folder.
